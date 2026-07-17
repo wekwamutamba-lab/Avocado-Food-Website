@@ -16,7 +16,7 @@ export default () => {
   const [list, setList] = useState([])
   useEffect(() => { setTimeout(() => setList(products), 300) }, [])
   return (
-    <section id='products' className='page' style={{background: '#355609', padding: '80px 40px', color: '#fff'}}>
+    <section id='products' className='page' style={{background: '#09491b', padding: '80px 40px', color: '#fff'}}>
       <h2 style={{color: '#fff', textAlign: 'center'}}>OUR PRODUCTS</h2>
       <p style={{color: '#999', textAlign: 'center'}}>Fresh avocados delivered to your doorstep</p>
       <div className='products-grid'>
